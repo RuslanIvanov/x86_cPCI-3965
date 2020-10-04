@@ -1,0 +1,15 @@
+#!/bin/sh
+
+#USER="ftpserv"
+#if ! grep $USER /etc/passwd
+#then
+#      echo "add user $USER"
+#      adduser -h /ksdserv $USER < /etc/init.d/2
+#fi 
+
+USER="root"
+if ! grep $USER /etc/passwd
+then
+      echo "add user $USER"
+      adduser -h / $USER <  /etc/init.d/1
+fi

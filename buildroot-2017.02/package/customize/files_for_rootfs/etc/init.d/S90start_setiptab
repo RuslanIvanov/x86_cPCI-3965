@@ -1,0 +1,7 @@
+#!/bin/sh
+cd /
+###############
+cd /usr/bin
+./setIpTab.sh
+
+

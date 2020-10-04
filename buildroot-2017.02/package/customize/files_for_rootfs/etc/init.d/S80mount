@@ -1,0 +1,8 @@
+#!/bin/sh
+###############################################################################
+#mkdir /mnt/fs
+#mount -o rw /dev/sda2 /mnt/fs
+
+mkdir /mnt/boot
+mount -o rw /dev/sda1 /mnt/boot
+

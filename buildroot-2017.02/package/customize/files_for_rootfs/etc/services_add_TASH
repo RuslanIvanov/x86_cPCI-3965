@@ -1,0 +1,8 @@
+#
+# Servers_services_TASH_
+#
+servOutTs       9000/udp                        # out TS
+servInTu        9003/udp                        # in TU
+servOutTuErr    9002/udp                        # out error TU
+servOutNsi      9009/udp                        # out NSI
+servInDiag      9008/udp                        # in diagn ARMDS

@@ -1,0 +1,42 @@
+#SERVER MASTER
+
+# Configure Loopback
+auto lo
+iface lo inet loopback
+
+auto enp2s0
+iface enp2s0 inet static
+    address 192.168.2.1
+    netmask 255.255.255.0
+
+auto enp1s0
+iface enp1s0 inet static
+    address 192.168.1.1
+    netmask 255.255.255.0
+
+auto enp5s0
+iface enp5s0 inet static
+    address 192.168.4.1
+    netmask 255.255.255.0
+
+auto enp4s0
+iface enp4s0 inet static
+    address 192.168.9.145
+    netmask 255.255.255.0
+
+auto enp3s0
+iface enp3s0 inet static
+    address 192.168.8.145
+    netmask 255.255.255.0
+
+auto enp6s0
+iface enp6s0 inet static
+    address 192.168.5.1
+    netmask 255.255.255.0
+
+
+
+
+ 
+
+

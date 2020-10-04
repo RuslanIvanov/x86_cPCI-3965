@@ -1,0 +1,59 @@
+#_MINSK_
+#########################################################
+#### SA KSD station addresses
+# st.Gukovskogo
+10.101.1.13             St313Kompl1Net1			#Master
+11.101.1.13             St313Kompl1Net2			#Slave
+192.168.4.13            St313Kompl2Net1			#Master
+192.168.5.13            St313Kompl2Net2			#Slave
+#
+# st.Vogzalnaja
+10.101.1.14             St314Kompl1Net1			#
+11.101.1.14             St314Kompl1Net2			#
+192.168.4.14            St314Kompl2Net1			#
+192.168.5.14            St314Kompl2Net2			#
+#
+# st.KlariCetkin
+10.101.1.15             St315Kompl1Net1			#
+11.101.1.15             St315Kompl1Net2			#
+192.168.4.15            St315Kompl2Net1			#
+192.168.5.15            St315Kompl2Net2			#
+#
+# st.Jubilejnaja
+10.101.1.16             St316Kompl1Net1			#
+11.101.1.16             St316Kompl1Net2			#
+192.168.4.16            St316Kompl2Net1			#
+192.168.5.16            St316Kompl2Net2			#
+#
+#
+#  convertor addresses  
+#
+# st.Gukovskogo
+10.8.1.59               Serv313Konv1Net1		#for Master
+11.8.1.59               Serv313Konv1Net2		#for Slave
+192.168.4.59            Serv313Konv2Net1		#for Master
+192.168.5.59            Serv313Konv2Net2		#for Slave
+#
+#  st.Vokgalnaja
+10.8.1.59               Serv314Konv1Net1		#
+11.8.1.59               Serv314Konv1Net2		#
+192.168.4.59            Serv314Konv2Net1		#
+192.168.5.59            Serv314Konv2Net2		#
+#
+#  st.KlariCetkin
+10.8.1.59               Serv315Konv1Net1		#
+11.8.1.59               Serv315Konv1Net2		#
+192.168.4.59            Serv315Konv2Net1		#
+192.168.5.59            Serv315Konv2Net2		#
+#
+#  st.Jubilejnaja
+10.8.1.59               Serv316Konv1Net1		#
+11.8.1.59               Serv316Konv1Net2		#
+192.168.4.59            Serv316Konv2Net1		#
+192.168.5.59            Serv316Konv2Net2		#
+
+# net mask
+255.0.0.0               mask655351Net1			#
+255.255.255.0           mask655351Net2			#
+255.0.0.0               mask655352Net1			#
+255.255.255.0           mask655352Net2			#

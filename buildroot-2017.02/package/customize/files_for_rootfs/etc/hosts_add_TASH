@@ -1,0 +1,23 @@
+#_TASH_
+#########################################################
+#### SA KSD station addresses
+# st.Turkiston
+10.0.1.6                St310Kompl1Net1			#Master
+10.0.2.6                St310Kompl1Net2			#Master
+10.0.1.7            	St310Kompl2Net1			#Slave
+10.0.2.7                St310Kompl2Net2			#Slave
+#
+#
+#  convertor addresses  (Central Point)
+#
+# st.Turkiston
+10.0.1.4                Serv310Konv1Net1		#for CP1
+10.0.2.4                Serv310Konv1Net2		#for CP1
+10.0.1.5            	Serv310Konv2Net1		#for CP2
+10.0.2.5            	Serv310Konv2Net2		#for CP2
+
+# net mask
+255.255.255.0           mask655351Net1			#
+255.255.255.0           mask655351Net2			#
+255.255.255.0           mask655352Net1			#
+255.255.255.0           mask655352Net2			#

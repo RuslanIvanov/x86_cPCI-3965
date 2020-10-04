@@ -1,0 +1,8 @@
+#
+# Servers_services_DEFAULT_
+#
+servOutTs       8000/udp                        # out TS
+servInTu        8003/udp                        # in TU
+servOutTuErr    8002/udp                        # out error TU
+servOutNsi      8009/udp                        # out NSI
+servInDiag      8008/udp                        # in diagn ARMDS

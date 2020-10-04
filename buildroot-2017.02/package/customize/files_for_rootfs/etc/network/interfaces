@@ -1,0 +1,35 @@
+#SERVER ALL
+
+# Configure Loopback
+auto lo
+iface lo inet loopback
+
+auto eth1
+iface eth1 inet static
+    address 192.168.9.145
+    netmask 255.255.255.0
+
+iface eth2 inet dhcp
+auto eth2
+
+iface eth4 inet dhcp
+auto eth4
+
+iface eth3 inet dhcp
+auto eth3
+
+auto eth0
+iface eth0 inet static
+    address 192.168.8.145
+    netmask 255.255.255.0
+
+iface eth5 inet dhcp
+auto eth5
+
+
+
+
+
+ 
+
+
