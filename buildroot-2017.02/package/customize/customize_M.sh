@@ -38,8 +38,10 @@ fi
 if [[ "$CITY" == "NNOVGOROD" ]]
 then
 #NNOVGOROD
-PATH_SERV=/home/russl1404/linuxTraining/work/serverM_tArmSh_1.4.2.1
-PATH_DB=/home/russl1404/projects/ksdserv
+#PATH_SERV=/home/russl1404/linuxTraining/work/serverM_tArmSh_1.4.2.1
+#PATH_DB=/home/russl1404/projects/ksdserv
+PATH_SERV=/home/russl/linuxTraning/work/serverM_tArmSh_NNnovg/serverM_tArmSh_1.4.2.1
+PATH_DB=/home/russl/linuxTraining/work/serverM_tArmSh_NNnovg
 fi
 
 #########################################################################
